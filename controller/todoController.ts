@@ -60,5 +60,11 @@ export const deleteTodo = (
 
 const deleted = deleteTodo(todos, 3);
 console.log(`Todo with ID 3 deleted: ${deleted}`);
+createTodo(todos, newTodo);
+console.log(createTodo(todos, newTodo));
+viewAlltodo(todos);
+// viewOneTodo(todos, 3);
+// console.log(viewOneTodo(todos, 2));
 
+console.log("Updated Todo List:", viewAlltodo(todos));
 createTodo(todos, newTodo);
